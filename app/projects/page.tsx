@@ -11,7 +11,7 @@ export default function ProjectsPage() {
           </aside>
 
           {/* SAME component, no animation */}
-          <div className="pb-24">
+          <div className="pb-24" id="page-title" >
             <ProjectsSection />
           </div>
         </div>

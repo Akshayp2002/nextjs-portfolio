@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Poppins } from "next/font/google";
 import Footer from "./components/Footer";
+import ScrollToTitleOnMobile from "./components/ScrollToTitleOnMobile";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en" className={`${poppins.variable} dark`}>
       <body className="min-h-screen font-sans bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100">
         <Navbar />
+        <ScrollToTitleOnMobile />
         <main className="pt-24">{children}</main>
         <Footer />
       </body>

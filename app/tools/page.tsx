@@ -11,7 +11,7 @@ export default function ToolsPage() {
           </aside>
 
           {/* SAME component, no animation */}
-          <div className="pb-24">
+          <div className="pb-24" id="page-title" >
             <ToolsSection />
           </div>
         </div>
