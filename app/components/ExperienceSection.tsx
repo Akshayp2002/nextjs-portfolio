@@ -1,3 +1,4 @@
+import ExperienceRow from "./ExperienceRow";
 import Reveal from "./Reveal";
 
 type ProjectsSectionProps = {
@@ -18,9 +19,28 @@ export default function ExperienceSection({ animated = false }: ProjectsSectionP
                 </h2>
             </div>
 
-            {/* Project list */}
+            {/* Experience list */}
             <div className="space-y-10 px-10">
-               
+                <ExperienceRow
+                    title="I Trend Solution"
+                    role="Software Engineer"
+                    description="Built automation and analytics using Amazon SP-API and Ads API. Worked on real-time inventory sync, scheduled workflows, and AI-driven ad optimization for scalable commerce systems."
+                    period="May 2025 – Present"
+                />
+
+                <ExperienceRow
+                    title="Cloudrevel Innovation"
+                    role="Software Engineer"
+                    description="Developed and optimized backend systems with a focus on database design, API performance, and scalable architecture. Collaborated closely with frontend teams on production applications."
+                    period="March 2023 – April 2025"
+                />
+
+                <ExperienceRow
+                    title="AOF Engineering Systems, LLC"
+                    role="Junior Developer"
+                    description="Gained hands-on experience in backend development, database management, and performance optimization within production environments."
+                    period="September 2022 – February 2023"
+                />
             </div>
         </section>
     );
@@ -28,7 +48,7 @@ export default function ExperienceSection({ animated = false }: ProjectsSectionP
     // ✅ Animate only when requested (Home)
     if (animated) {
         return (
-            <Reveal amount={0.3} y={28}>
+            <Reveal amount={0.3} y={28} margin="0px 0px -35% 0px">
                 {Content}
             </Reveal>
         );

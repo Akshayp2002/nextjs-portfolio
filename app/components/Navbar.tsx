@@ -16,7 +16,7 @@ const navItems = [
     { href: "/projects", label: "Projects", icon: FolderKanban },
     { href: "/experience", label: "Experience", icon: BarChart3 },
     { href: "/tools", label: "Tools", icon: Wrench },
-    { href: "/edit", label: "Edit", icon: Pencil },
+    // { href: "/blog", label: "Blog", icon: Pencil },
 ];
 export default function Navbar() {
     const pathname = usePathname();
