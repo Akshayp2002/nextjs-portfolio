@@ -24,8 +24,8 @@ export default function RootLayout({
         <ScrollToTitleOnMobile />
         <main className="pt-24">{children}</main>
         <Footer />
+        <Analytics />
       </body>
-      <Analytics />
     </html>
   );
 }
