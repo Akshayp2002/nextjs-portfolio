@@ -2,7 +2,7 @@ import { ArrowUpRight } from "lucide-react";
 
 type ExperienceRowProps = {
   title: string;
-  role: string; 
+  role: string;
   description: string;
   period: string;
   href?: string;
@@ -30,7 +30,8 @@ export default function ExperienceRow({
       <div className="max-w-3xl">
         <h3 className="text-3xl font-extrabold tracking-tight text-neutral-900 dark:text-neutral-100">
           {title}
-        </h3>{/* Role */}
+        </h3>
+        {/* Role */}
         <p className="mt-1 text-lg font-medium text-neutral-600 dark:text-neutral-400">
           {role}
         </p>

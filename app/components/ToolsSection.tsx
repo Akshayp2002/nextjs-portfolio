@@ -1,3 +1,4 @@
+import ContactSection from "./ContactSection";
 import Reveal from "./Reveal";
 import ToolsRow from "./ToolsRow";
 
@@ -72,12 +73,13 @@ export default function ToolsSection({ animated = false }: ToolsSectionProps) {
                     />
                 </div>
             </div>
+            <ContactSection />
         </section>
     );
 
     if (animated) {
         return (
-<Reveal amount={0.15} margin="0px 0px -35% 0px">
+            <Reveal amount={0.15} margin="0px 0px -35% 0px">
                 {Content}
             </Reveal>
         );
