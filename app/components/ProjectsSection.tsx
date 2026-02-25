@@ -15,7 +15,7 @@ type Project = {
 };
 const projects: Project[] = [
   {
-    name: "Amazon SP Manager",
+    name: "iTrend Commerce",
     description:
       "An app that uses Amazon's SP-API to automate and optimize inventory management for sellers.",
     image: "/img/sp-manager.webp",
@@ -64,24 +64,24 @@ const projects: Project[] = [
     status: false,
     date: "June - 2024",
   },
-  {
-    name: "Swiftrevel",
-    description: "Swiftrevel champions frictionless fintech, integrating flawlessly with your existing tools and software to eliminate data silos and streamline your workflow.",
-    image: "/img/swiftrevel.webp",
-    github: false,
-    view: "https://swiftrevel.com",
-    status: false,
-    date: "May - 2024",
-  },
-  {
-    name: "Student 360",
-    description: "A final year project: A student management portal designed to efficiently manage attendance, grades, student details, and other academic information.",
-    image: "/img/student360.webp",
-    github: "https://github.com/Akshayp2002/Student-360",
-    view: false,
-    status: false,
-    date: "April - 2022",
-  },
+  // {
+  //   name: "Swiftrevel",
+  //   description: "Swiftrevel champions frictionless fintech, integrating flawlessly with your existing tools and software to eliminate data silos and streamline your workflow.",
+  //   image: "/img/swiftrevel.webp",
+  //   github: false,
+  //   view: "https://swiftrevel.com",
+  //   status: false,
+  //   date: "May - 2024",
+  // },
+  // {
+  //   name: "Student 360",
+  //   description: "A final year project: A student management portal designed to efficiently manage attendance, grades, student details, and other academic information.",
+  //   image: "/img/student360.webp",
+  //   github: "https://github.com/Akshayp2002/Student-360",
+  //   view: false,
+  //   status: false,
+  //   date: "April - 2022",
+  // },
 
 ];
 

@@ -15,7 +15,7 @@ export default function ExperienceRow({
   period,
   href,
 }: ExperienceRowProps) {
-  const Wrapper: any = href ? "a" : "div";
+  const Wrapper: React.ElementType = href ? "a" : "div";
 
   return (
     <Wrapper

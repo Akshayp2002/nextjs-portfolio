@@ -1,4 +1,5 @@
 import { ArrowUpRight, Github } from "lucide-react";
+import Image from "next/image";
 
 type ProjectRowProps = {
   name: string;
@@ -35,10 +36,13 @@ export default function ProjectRow({
       <div className="flex gap-6 max-w-3xl">
         {/* IMAGE — fixed size */}
         <div className="h-20 w-20 shrink-0 overflow-hidden rounded-xl bg-neutral-200 dark:bg-neutral-800">
-          <img
+          <Image
             src={image}
             alt={name}
+            width={80}
+            height={80}
             className="h-full w-full object-cover"
+            style={{ objectFit: "cover" }}
           />
         </div>
 

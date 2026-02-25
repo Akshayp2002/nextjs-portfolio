@@ -16,7 +16,7 @@ export default function HomePage() {
 
           {/* RIGHT: normal content (page scrolls) */}
           <div className="space-y-10 pb-16">
-            <div className="px-10 py-0">
+            <section id="home" className="px-10 py-0">
               <h1 className="font-black leading-[0.9] tracking-tight">
                 <span className="block text-[clamp(3.5rem,7vw,7rem)] dark:text-white text-black">
                   SOFTWARE
@@ -35,8 +35,8 @@ export default function HomePage() {
                 <Stat value="+3" label="Years of experience" />
                 <Stat value="+10" label="Projects completed" />
               </div>
+            </section>
 
-            </div>
             <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2">
               <PlaceholderCard
                 title="Currently Exploring"
@@ -77,7 +77,7 @@ export default function HomePage() {
 function Stat({ value, label }: { value: string; label: string }) {
   return (
     <div>
-      <div className="text-5xl font-extrabold dark:text-white text-black">
+      <div className="text-6xl font-extrabold dark:text-white text-black">
         {value}
       </div>
       <div className="mt-2 text-sm uppercase tracking-wide text-zinc-500">

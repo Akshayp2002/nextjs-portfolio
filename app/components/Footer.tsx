@@ -4,9 +4,14 @@ export default function Footer() {
             <div className="mx-auto max-w-6xl px-4 py-8">
                 <p className="text-center text-sm text-neutral-600 dark:text-neutral-400">
                     Made by{" "}
-                    <span className="font-semibold text-neutral-900 dark:text-neutral-100">
+                    <a
+                        href="https://devakshay.vercel.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-neutral-900 dark:text-neutral-100 hover:underline"
+                    >
                         Akshay
-                    </span>{" "}
+                    </a>{" "}
                     | Powered by{" "}
                     <span className="font-semibold text-neutral-900 dark:text-neutral-100">
                         Next.js
