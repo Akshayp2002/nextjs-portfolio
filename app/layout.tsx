@@ -39,8 +39,8 @@ export default function RootLayout({
           </AnimatePresence>
         </main>
         <Footer />
+        <Analytics />
       </body>
-      <Analytics />
     </html>
   );
 }
